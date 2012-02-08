@@ -2,7 +2,7 @@ function MainCtrl($route, $anchorScroll) {
     var self = this;
 
     $route.when('/list',
-              {template: 'http://jsfiddle.net/gh/get/response.html/msgilligan/fiddles/tree/master/angular-hashdemo/',   controller: ListCtrl});
+              {template: '/gh/get/response.html/msgilligan/fiddles/tree/master/angular-hashdemo/',   controller: ListCtrl});
     $route.when('/:id/detail',
               {template: 'demo-detail.html', controller: DetailCtrl});
     $route.when('/notfound',
