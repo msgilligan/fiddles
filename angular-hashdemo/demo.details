@@ -1,0 +1,11 @@
+demo.details - description file for jsFiddle.net written in MooTools style YAML
+---
+ name: Angular HashDemo
+ description: An attempt to use the anchorScroll feature of Angular.js 0.10.6
+ authors:
+   - M. Sean Gilligan
+ resources:
+   - http://code.angularjs.org/0.10.6/angular-0.10.6.js
+ normalize_css: no
+...
+This fiddle should be available at http://jsfiddle.net/gh/get/jquery/1.7.1/msgilligan/fiddles/angular-hashdemo/
