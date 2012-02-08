@@ -5,8 +5,6 @@ function MainCtrl($route, $anchorScroll) {
               {template: '/gh/get/response.html/msgilligan/fiddles/tree/master/angular-hashdemo/', controller: ListCtrl});
     $route.when('/:id/detail',
               {template: '/gh/get/response.html/msgilligan/fiddles/tree/master/angular-hashdemo-response2/', controller: DetailCtrl});
-    $route.when('/notfound',
-              {template: 'demo-notfound.html', controller: NoopCtrl});
     $route.otherwise({redirectTo: '/list'});
 
     this.$on('$afterRouteChange', function(event) {
@@ -16,19 +14,13 @@ function MainCtrl($route, $anchorScroll) {
 
   $route.parent(this);
 }
-MainCtrl.$inject = ['$route', '$anchorScroll'];
 
 function ListCtrl(BigList) {
 	this.entries = BigList.list();
 }
-ListCtrl.$inject = ['BigList'];
 
 function DetailCtrl($routeParams, BigList) {
 	this.entry = BigList.detail($routeParams.id);
-}
-DetailCtrl.$inject = ['$routeParams', 'BigList'];
-
-function NoopCtrl() {
 }
 
 var hsh = angular.module('hsh', []);
