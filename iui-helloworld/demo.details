@@ -5,9 +5,9 @@ demo.details - description file for jsFiddle.net written in MooTools style YAML
  authors:
    - M. Sean Gilligan
  resources:
-   - http://iui.googlecode.com/git/web-app/iui/iui.css
-   - http://iui.googlecode.com/git/web-app/iui/t/default/default-theme.css
-   - http://iui.googlecode.com/git/web-app/iui/iui.js
+   - http://demo.iui-js.org/iui/iui.css
+   - http://demo.iui-js.org/iui/t/default/default-theme.css
+   - http://demo.iui-js.org/iui/iui.js
  normalize_css: no
 ...
 This fiddle should be available at http://jsfiddle.net/gh/get/jquery/1.7.1/msgilligan/fiddles/tree/master/iui-helloworld/
