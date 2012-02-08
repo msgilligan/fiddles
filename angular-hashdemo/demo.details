@@ -8,4 +8,4 @@ demo.details - description file for jsFiddle.net written in MooTools style YAML
    - http://code.angularjs.org/0.10.6/angular-0.10.6.js
  normalize_css: no
 ...
-This fiddle should be available at http://jsfiddle.net/gh/get/jquery/1.7.1/msgilligan/fiddles/angular-hashdemo/
+This fiddle should be available at http://jsfiddle.net/gh/get/jquery/1.7.1/msgilligan/fiddles/tree/master/angular-hashdemo/
